@@ -1,0 +1,4 @@
+source;share/lab2_laser_subscribing/local_setup.bash
+source;share/lab2_laser_subscribing/local_setup.dsv
+source;share/lab2_laser_subscribing/local_setup.sh
+source;share/lab2_laser_subscribing/local_setup.zsh

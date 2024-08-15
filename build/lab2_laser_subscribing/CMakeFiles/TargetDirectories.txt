@@ -1,0 +1,10 @@
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/lab2_laser_subscribing_uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/laser_scan_processor.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/test.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/list_install_components.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/install.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/install/local.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (-) JobUnselected: {'identifier': 'Lab_1_image_subscribing'}
+[0.000656] (-) JobUnselected: {'identifier': 'lab2_laser_subscribing'}
+[0.000958] (-) EventReactorShutdown: {}
