@@ -1,0 +1,347 @@
+[0.333s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.334s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70b35dfcfeb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70b35dfcf490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70b35dfcf490>>, mixin_verb=('build',))
+[0.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extension 'ignore_ament_install'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_image_subscribing) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1_image_subscribing' with type 'ros.ament_cmake' and name 'lab1_image_subscribing'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extension 'colcon_meta'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extensions ['ros']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_laser_subscribing) by extension 'ros'
+[0.992s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab2_laser_subscribing' with type 'ros.ament_cmake' and name 'lab2_laser_subscribing'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_subpub) by extension 'ros'
+[0.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_scan_subpub' with type 'ros.ament_cmake' and name 'laser_scan_subpub'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extension 'ignore_ament_install'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extensions ['colcon_pkg']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extensions ['colcon_meta']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extensions ['ros']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_worlds_pkg) by extension 'ros'
+[0.997s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_worlds_pkg' with type 'ros.ament_cmake' and name 'my_worlds_pkg'
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.124s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/student/Desktop/Robotics_Studio_1/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.124s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.125s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/Desktop/Robotics_Studio_1/install/lab2_laser_subscribing' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.125s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/Desktop/Robotics_Studio_1/install/lab1_image_subscribing' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.126s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.126s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/Desktop/Robotics_Studio_1/install/lab2_laser_subscribing' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.127s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/Desktop/Robotics_Studio_1/install/lab1_image_subscribing' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.128s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install
+[1.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/student/ros2_ws/install
+[1.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[1.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_target' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_clean_cache' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_clean_first' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'cmake_force_configure' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'ament_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'catkin_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'lab1_image_subscribing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.306s] DEBUG:colcon.colcon_core.verb:Building package 'lab1_image_subscribing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing', 'merge_install': False, 'path': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab1_image_subscribing', 'symlink_install': False, 'test_result_base': None}
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_target' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_clean_cache' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_clean_first' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'cmake_force_configure' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'ament_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'catkin_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'lab2_laser_subscribing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.307s] DEBUG:colcon.colcon_core.verb:Building package 'lab2_laser_subscribing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing', 'merge_install': False, 'path': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing', 'symlink_install': False, 'test_result_base': None}
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_target' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_clean_first' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'cmake_force_configure' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'ament_cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_subpub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.308s] DEBUG:colcon.colcon_core.verb:Building package 'laser_scan_subpub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub', 'merge_install': False, 'path': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub', 'symlink_install': False, 'test_result_base': None}
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_target' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'my_worlds_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.309s] DEBUG:colcon.colcon_core.verb:Building package 'my_worlds_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg', 'merge_install': False, 'path': '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab1_image_subscribing' with build type 'ament_cmake'
+[1.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab1_image_subscribing'
+[1.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing' with build type 'ament_cmake'
+[1.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing'
+[1.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub' with build type 'ament_cmake'
+[1.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub'
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg' with build type 'ament_cmake'
+[1.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab1_image_subscribing -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing
+[1.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing
+[1.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub
+[1.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg
+[6.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing
+[6.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing -- -j8 -l8
+[7.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab1_image_subscribing -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing
+[7.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing -- -j8 -l8
+[7.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub
+[7.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub -- -j8 -l8
+[11.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg
+[11.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg -- -j8 -l8
+[11.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg -- -j8 -l8
+[11.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg
+[11.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_worlds_pkg)
+[11.631s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg' for CMake module files
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg' for CMake config files
+[11.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_worlds_pkg', 'cmake_prefix_path')
+[11.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.ps1'
+[11.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.dsv'
+[11.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.sh'
+[11.635s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/bin'
+[11.635s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/lib/pkgconfig/my_worlds_pkg.pc'
+[11.636s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/lib/python3.10/site-packages'
+[11.636s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/bin'
+[11.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.ps1'
+[11.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg
+[11.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.dsv'
+[11.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.sh'
+[11.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.bash'
+[11.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.zsh'
+[11.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/colcon-core/packages/my_worlds_pkg)
+[11.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_worlds_pkg)
+[11.829s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg' for CMake module files
+[11.830s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg' for CMake config files
+[11.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_worlds_pkg', 'cmake_prefix_path')
+[11.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.ps1'
+[11.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.dsv'
+[11.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/hook/cmake_prefix_path.sh'
+[11.840s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/bin'
+[11.841s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/lib/pkgconfig/my_worlds_pkg.pc'
+[11.841s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/lib/python3.10/site-packages'
+[11.841s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/bin'
+[11.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.ps1'
+[11.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.dsv'
+[11.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.sh'
+[11.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.bash'
+[11.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.zsh'
+[11.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/colcon-core/packages/my_worlds_pkg)
+[32.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing -- -j8 -l8
+[32.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing
+[32.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_laser_subscribing)
+[32.359s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing' for CMake module files
+[32.360s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing' for CMake config files
+[32.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_laser_subscribing', 'cmake_prefix_path')
+[32.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.ps1'
+[32.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing
+[32.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.dsv'
+[32.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.sh'
+[32.365s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib'
+[32.365s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/bin'
+[32.365s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/pkgconfig/lab2_laser_subscribing.pc'
+[32.366s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/python3.10/site-packages'
+[32.366s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/bin'
+[32.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.ps1'
+[32.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.dsv'
+[32.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.sh'
+[32.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.bash'
+[32.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.zsh'
+[32.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/colcon-core/packages/lab2_laser_subscribing)
+[32.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_laser_subscribing)
+[32.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing' for CMake module files
+[32.578s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing' for CMake config files
+[32.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_laser_subscribing', 'cmake_prefix_path')
+[32.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.ps1'
+[32.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.dsv'
+[32.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/hook/cmake_prefix_path.sh'
+[32.582s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib'
+[32.582s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/bin'
+[32.583s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/pkgconfig/lab2_laser_subscribing.pc'
+[32.583s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/python3.10/site-packages'
+[32.584s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/bin'
+[32.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.ps1'
+[32.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.dsv'
+[32.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.sh'
+[32.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.bash'
+[32.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.zsh'
+[32.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/colcon-core/packages/lab2_laser_subscribing)
+[32.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub -- -j8 -l8
+[33.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub
+[33.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_scan_subpub)
+[33.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub
+[33.070s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' for CMake module files
+[33.072s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' for CMake config files
+[33.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_scan_subpub', 'cmake_prefix_path')
+[33.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.ps1'
+[33.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.dsv'
+[33.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.sh'
+[33.075s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib'
+[33.076s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/bin'
+[33.076s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/pkgconfig/laser_scan_subpub.pc'
+[33.076s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/python3.10/site-packages'
+[33.077s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/bin'
+[33.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.ps1'
+[33.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.dsv'
+[33.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.sh'
+[33.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.bash'
+[33.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.zsh'
+[33.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/colcon-core/packages/laser_scan_subpub)
+[33.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_scan_subpub)
+[33.242s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' for CMake module files
+[33.243s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub' for CMake config files
+[33.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_scan_subpub', 'cmake_prefix_path')
+[33.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.ps1'
+[33.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.dsv'
+[33.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/hook/cmake_prefix_path.sh'
+[33.247s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib'
+[33.247s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/bin'
+[33.247s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/pkgconfig/laser_scan_subpub.pc'
+[33.248s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/python3.10/site-packages'
+[33.248s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/bin'
+[33.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.ps1'
+[33.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.dsv'
+[33.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.sh'
+[33.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.bash'
+[33.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.zsh'
+[33.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/colcon-core/packages/laser_scan_subpub)
+[35.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing -- -j8 -l8
+[35.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing
+[35.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_image_subscribing)
+[35.577s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing' for CMake module files
+[35.578s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing' for CMake config files
+[35.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_image_subscribing', 'cmake_prefix_path')
+[35.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.ps1'
+[35.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing
+[35.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.dsv'
+[35.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.sh'
+[35.584s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib'
+[35.584s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/bin'
+[35.584s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib/pkgconfig/lab1_image_subscribing.pc'
+[35.584s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib/python3.10/site-packages'
+[35.585s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/bin'
+[35.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.ps1'
+[35.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.dsv'
+[35.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.sh'
+[35.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.bash'
+[35.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.zsh'
+[35.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/colcon-core/packages/lab1_image_subscribing)
+[35.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_image_subscribing)
+[35.763s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing' for CMake module files
+[35.764s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing' for CMake config files
+[35.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_image_subscribing', 'cmake_prefix_path')
+[35.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.ps1'
+[35.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.dsv'
+[35.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/hook/cmake_prefix_path.sh'
+[35.767s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib'
+[35.767s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/bin'
+[35.767s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib/pkgconfig/lab1_image_subscribing.pc'
+[35.767s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/lib/python3.10/site-packages'
+[35.768s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/bin'
+[35.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.ps1'
+[35.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.dsv'
+[35.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.sh'
+[35.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.bash'
+[35.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/lab1_image_subscribing/package.zsh'
+[35.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab1_image_subscribing/share/colcon-core/packages/lab1_image_subscribing)
+[35.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.781s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.782s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.793s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.793s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.901s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/local_setup.ps1'
+[35.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/_local_setup_util_ps1.py'
+[35.905s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/setup.ps1'
+[35.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/local_setup.sh'
+[35.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/_local_setup_util_sh.py'
+[35.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/setup.sh'
+[35.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/local_setup.bash'
+[35.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/setup.bash'
+[35.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/local_setup.zsh'
+[35.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/setup.zsh'

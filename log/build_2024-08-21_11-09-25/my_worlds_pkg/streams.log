@@ -1,0 +1,129 @@
+[0.127s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.588s] -- The CXX compiler identification is GNU 11.4.0
+[0.620s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.805s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.805s] -- Detecting C compile features
+[0.806s] -- Detecting C compile features - done
+[0.809s] -- Detecting CXX compiler ABI info
+[1.146s] -- Detecting CXX compiler ABI info - done
+[1.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.194s] -- Detecting CXX compile features
+[1.194s] -- Detecting CXX compile features - done
+[1.207s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.846s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.044s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.241s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.255s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.274s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.563s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.571s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.318s] -- Looking for pthread.h
+[3.531s] -- Looking for pthread.h - found
+[3.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.834s] -- Found Threads: TRUE  
+[4.622s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.623s] -- Checking for module 'bullet>=2.82'
+[4.684s] --   Found bullet, version 3.05
+[5.224s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.515s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.587s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.669s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.734s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.747s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.760s] -- Searching for dependencies of ignition-math6
+[5.762s] -- Looking for OGRE...
+[5.763s] -- OGRE_PREFIX_WATCH changed.
+[5.771s] -- Checking for module 'OGRE'
+[5.840s] --   Found OGRE, version 1.9.0
+[6.096s] -- Found Ogre Ghadamon (1.9.0)
+[6.114s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.132s] -- Looking for OGRE_Paging...
+[6.156s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.156s] -- Looking for OGRE_Terrain...
+[6.169s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.170s] -- Looking for OGRE_Property...
+[6.182s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.182s] -- Looking for OGRE_RTShaderSystem...
+[6.195s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.195s] -- Looking for OGRE_Volume...
+[6.233s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.233s] -- Looking for OGRE_Overlay...
+[6.275s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.763s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.769s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.770s] -- Searching for dependencies of ignition-transport8
+[6.831s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.854s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.868s] -- Checking for module 'libzmq >= 4'
+[6.982s] --   Found libzmq , version 4.3.4
+[7.270s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.284s] -- Checking for module 'uuid'
+[7.356s] --   Found uuid, version 2.37.2
+[7.614s] -- Found UUID: TRUE  
+[7.620s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.622s] -- Searching for dependencies of ignition-msgs5
+[7.669s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.678s] -- Checking for module 'tinyxml2'
+[7.775s] --   Found tinyxml2, version 9.0.0
+[7.972s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.978s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.978s] -- Searching for dependencies of ignition-common3
+[7.979s] -- Looking for dlfcn.h - found
+[7.981s] -- Looking for libdl - found
+[7.983s] -- Found DL: TRUE  
+[8.019s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.023s] -- Searching for <ignition-common3> component [graphics]
+[8.038s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.039s] -- Searching for dependencies of ignition-common3-graphics
+[8.039s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.059s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.076s] -- Searching for dependencies of ignition-fuel_tools4
+[8.578s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.612s] -- Checking for module 'jsoncpp'
+[8.649s] --   Found jsoncpp, version 1.9.5
+[8.830s] -- Found JSONCPP: TRUE  
+[8.864s] -- Checking for module 'libzip'
+[8.989s] --   Found libzip, version 1.7.3
+[9.070s] -- Found ZIP: TRUE  
+[9.072s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.073s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.074s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.086s] -- Gazebo version: 11.10
+[9.088s] -- Checking for module 'tbb'
+[9.155s] --   Found tbb, version 2021.5.0
+[9.771s] -- Configuring done
+[9.781s] -- Generating done
+[9.785s] -- Build files have been written to: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg
+[9.811s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg
+[9.812s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg -- -j8 -l8
+[10.023s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg -- -j8 -l8
+[10.161s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg
+[10.179s] -- Install configuration: ""
+[10.179s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/worlds
+[10.181s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/worlds/office_world.world
+[10.188s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/launch
+[10.197s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/launch/office_world.launch.py
+[10.197s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/package_run_dependencies/my_worlds_pkg
+[10.198s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/parent_prefix_path/my_worlds_pkg
+[10.199s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.sh
+[10.199s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.dsv
+[10.200s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.sh
+[10.200s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.dsv
+[10.201s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.bash
+[10.201s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.sh
+[10.202s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.zsh
+[10.202s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.dsv
+[10.202s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.dsv
+[10.203s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/packages/my_worlds_pkg
+[10.204s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig.cmake
+[10.204s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig-version.cmake
+[10.204s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.xml
+[10.218s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg

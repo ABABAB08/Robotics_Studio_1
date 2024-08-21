@@ -347,15 +347,6 @@ foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
 //Value Computed by CMake
-lab2_laser_subscriber_BINARY_DIR:STATIC=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing
-
-//Value Computed by CMake
-lab2_laser_subscriber_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-lab2_laser_subscriber_SOURCE_DIR:STATIC=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/lab2_laser_subscribing
-
-//Value Computed by CMake
 lab2_laser_subscribing_BINARY_DIR:STATIC=/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing
 
 //Value Computed by CMake
