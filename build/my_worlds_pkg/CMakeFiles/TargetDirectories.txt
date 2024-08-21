@@ -1,0 +1,9 @@
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/my_worlds_pkg_uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/test.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/list_install_components.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/install.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/install/local.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/my_worlds_pkg/CMakeFiles/install/strip.dir

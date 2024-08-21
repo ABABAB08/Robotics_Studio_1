@@ -1,63 +1,65 @@
-#include "rclcpp/rclcpp.hpp"
-#include "sensor_msgs/msg/laser_scan.hpp"
+#include <rclcpp/rclcpp.hpp>
+#include <sensor_msgs/msg/laser_scan.hpp>
 
 class LaserScanProcessor : public rclcpp::Node
 {
 public:
     LaserScanProcessor()
-    : Node("laser_scan_processor")
+        : Node("laser_scan_processor")
     {
-        // Subscriber to the /scan topic
-        subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
+        scan_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
             "/scan", 10, std::bind(&LaserScanProcessor::scanCallback, this, std::placeholders::_1));
 
-        // Publisher for the filtered scan
-        publisher_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/filtered_scan", 10);
+        scan_pub_1_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/scan_subset_1", 10);
+        scan_pub_2_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/scan_subset_2", 10);
     }
 
 private:
-    void scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+    void scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr scan)
     {
-        // Example: Get the range at the middle angle
-        size_t angle_index = msg->ranges.size() / 2;
-        float range_at_angle = msg->ranges[angle_index];
-        RCLCPP_INFO(this->get_logger(), "Range at angle: %.2f meters", range_at_angle);
+        RCLCPP_INFO(this->get_logger(), "angle_min: %f radians (%f degrees)", scan->angle_min, scan->angle_min * 180.0 / M_PI);
+        RCLCPP_INFO(this->get_logger(), "angle_max: %f radians (%f degrees)", scan->angle_max, scan->angle_max * 180.0 / M_PI);
+        RCLCPP_INFO(this->get_logger(), "angle_increment: %f radians (%f degrees)", scan->angle_increment, scan->angle_increment * 180.0 / M_PI);
 
-        // Create a new LaserScan message for filtered data
-        auto filtered_scan = std::make_shared<sensor_msgs::msg::LaserScan>();
+        double angle_min_deg_1 = 0.0;
+        double angle_max_deg_1 = 30.0;
+        double angle_min_deg_2 = 330.0;
+        double angle_max_deg_2 = 360.0;
 
-        // Copy the header and time-related parameters
-        filtered_scan->header = msg->header;
-        filtered_scan->time_increment = msg->time_increment;
-        filtered_scan->scan_time = msg->scan_time;
-        filtered_scan->range_min = msg->range_min;
-        filtered_scan->range_max = msg->range_max;
+        double angle_min_rad_1 = angle_min_deg_1 * M_PI / 180.0;
+        double angle_max_rad_1 = angle_max_deg_1 * M_PI / 180.0;
+        double angle_min_rad_2 = angle_min_deg_2 * M_PI / 180.0;
+        double angle_max_rad_2 = angle_max_deg_2 * M_PI / 180.0;
 
-        // Select a subset of range values (for example, 90 degrees centered around the middle)
-        size_t total_angles = msg->ranges.size();
-        size_t start_index = total_angles / 4; // Start at 45 degrees
-        size_t end_index = 3 * total_angles / 4; // End at 135 degrees
+        int start_index_1 = static_cast<int>((angle_min_rad_1 - scan->angle_min) / scan->angle_increment);
+        int end_index_1 = static_cast<int>((angle_max_rad_1 - scan->angle_min) / scan->angle_increment);
+        int start_index_2 = static_cast<int>((angle_min_rad_2 - scan->angle_min) / scan->angle_increment);
+        int end_index_2 = static_cast<int>((angle_max_rad_2 - scan->angle_min) / scan->angle_increment);
 
-        filtered_scan->ranges.assign(msg->ranges.begin() + start_index, msg->ranges.begin() + end_index);
+        auto subset_scan_1 = std::make_shared<sensor_msgs::msg::LaserScan>(*scan);
+        subset_scan_1->ranges = std::vector<float>(scan->ranges.begin() + start_index_1, scan->ranges.begin() + end_index_1 + 1);
+        subset_scan_1->angle_min = scan->angle_min + start_index_1 * scan->angle_increment;
+        subset_scan_1->angle_max = scan->angle_min + end_index_1 * scan->angle_increment;
 
-        // Adjust angle_min and angle_max according to the subset
-        filtered_scan->angle_min = msg->angle_min + start_index * msg->angle_increment;
-        filtered_scan->angle_max = msg->angle_min + end_index * msg->angle_increment;
-        filtered_scan->angle_increment = msg->angle_increment;
+        auto subset_scan_2 = std::make_shared<sensor_msgs::msg::LaserScan>(*scan);
+        subset_scan_2->ranges = std::vector<float>(scan->ranges.begin() + start_index_2, scan->ranges.begin() + end_index_2 + 1);
+        subset_scan_2->angle_min = scan->angle_min + start_index_2 * scan->angle_increment;
+        subset_scan_2->angle_max = scan->angle_min + end_index_2 * scan->angle_increment;
 
-        // Publish the filtered scan
-        publisher_->publish(*filtered_scan);
+        scan_pub_1_->publish(*subset_scan_1);
+        scan_pub_2_->publish(*subset_scan_2);
     }
 
-    rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
-    rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr publisher_;
+    rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr scan_sub_;
+    rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr scan_pub_1_;
+    rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr scan_pub_2_;
 };
 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<LaserScanProcessor>();
-    rclcpp::spin(node);
+    rclcpp::spin(std::make_shared<LaserScanProcessor>());
     rclcpp::shutdown();
     return 0;
 }
+ 

@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing -- -j8 -l8
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_processor[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_processor.dir/src/laser_scan_processor.cpp.o[0m
+[9.426s] [100%] [32m[1mLinking CXX executable laser_scan_processor[0m
+[9.873s] [100%] Built target laser_scan_processor
+[9.886s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing -- -j8 -l8
+[9.923s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing
+[9.936s] -- Install configuration: ""
+[9.946s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/lab2_laser_subscribing/laser_scan_processor
+[9.952s] -- Set runtime path of "/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/lib/lab2_laser_subscribing/laser_scan_processor" to ""
+[9.952s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/ament_index/resource_index/package_run_dependencies/lab2_laser_subscribing
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/ament_index/resource_index/parent_prefix_path/lab2_laser_subscribing
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/environment/ament_prefix_path.sh
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/environment/ament_prefix_path.dsv
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/environment/path.sh
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/environment/path.dsv
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/local_setup.bash
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/local_setup.sh
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/local_setup.zsh
+[9.953s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/local_setup.dsv
+[9.953s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.dsv
+[9.958s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/ament_index/resource_index/packages/lab2_laser_subscribing
+[9.958s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/cmake/lab2_laser_subscribingConfig.cmake
+[9.958s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/cmake/lab2_laser_subscribingConfig-version.cmake
+[9.959s] -- Up-to-date: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/lab2_laser_subscribing/share/lab2_laser_subscribing/package.xml
+[9.961s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab2_laser_subscribing

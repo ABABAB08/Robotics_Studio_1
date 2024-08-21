@@ -1,0 +1,17 @@
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/worlds/office_world.world
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/launch/office_world.launch.py
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/package_run_dependencies/my_worlds_pkg
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/parent_prefix_path/my_worlds_pkg
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.bash
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.zsh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/ament_index/resource_index/packages/my_worlds_pkg
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig.cmake
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig-version.cmake
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/my_worlds_pkg/share/my_worlds_pkg/package.xml

@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="office_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- First Wall (Back Wall) -->
+    <model name="wall_1">
+      <pose>0 2 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Second Wall (Left Wall) -->
+    <model name="wall_2">
+      <pose>-2 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Third Wall (Right Wall) -->
+    <model name="wall_3">
+      <pose>2 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Desk -->
+    <include>
+      <uri>model://table_marble</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+
+
+  </world>
+</sdf>
+

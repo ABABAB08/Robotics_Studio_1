@@ -1,0 +1,17 @@
+[0.015s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_subpub[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_subpub.dir/src/laser_scan_subpub.cpp.o[0m
+[10.742s] [100%] [32m[1mLinking CXX executable laser_scan_subpub[0m
+[11.205s] [100%] Built target laser_scan_subpub
+[11.222s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub -- -j8 -l8
+[11.274s] Invoking command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub
+[11.286s] -- Install configuration: ""
+[11.286s] -- Installing: /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/laser_scan_subpub/laser_scan_subpub
+[11.292s] -- Set runtime path of "/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/laser_scan_subpub/laser_scan_subpub" to ""
+[11.292s] [31mCMake Error at cmake_install.cmake:66 (file):
+[11.293s]   file INSTALL cannot find
+[11.293s]   "/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub/launch":
+[11.293s]   No such file or directory.
+[11.293s] 
+[11.293s] [0m
+[11.294s] Invoked command in '/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/laser_scan_subpub

@@ -1,0 +1,16 @@
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/lib/laser_scan_subpub/laser_scan_subpub
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/ament_index/resource_index/package_run_dependencies/laser_scan_subpub
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/ament_index/resource_index/parent_prefix_path/laser_scan_subpub
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/environment/ament_prefix_path.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/environment/ament_prefix_path.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/environment/path.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/environment/path.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/local_setup.bash
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/local_setup.sh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/local_setup.zsh
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/local_setup.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.dsv
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/ament_index/resource_index/packages/laser_scan_subpub
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/cmake/laser_scan_subpubConfig.cmake
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/cmake/laser_scan_subpubConfig-version.cmake
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/install/laser_scan_subpub/share/laser_scan_subpub/package.xml

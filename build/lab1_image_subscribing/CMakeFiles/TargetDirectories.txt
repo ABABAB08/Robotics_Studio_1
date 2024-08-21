@@ -1,0 +1,10 @@
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/lab1_image_subscribing_uninstall.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/image_subscriber.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/test.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/list_install_components.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/install.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/install/local.dir
+/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/build/lab1_image_subscribing/CMakeFiles/install/strip.dir

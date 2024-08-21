@@ -1,0 +1,17 @@
+<package format="2">
+  <name>lab1_image_subscribing</name>
+  <version>0.0.0</version>
+  <description>Lab 1 - Image Subscribing</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>OpenCV</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/student/Desktop/Robotics_Studio_1/Robotics_Studio_1/src/laser_scan_subpub/launch":
+  No such file or directory.
+
+[0m
