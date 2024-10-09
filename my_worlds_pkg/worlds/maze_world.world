@@ -1,0 +1,442 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="expanded_maze_world">
+
+    <!-- Include Sun and Ground Plane -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Ground plane material -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.3 0.5 0.3 1</ambient>
+            <diffuse>0.4 0.6 0.4 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Adding a point light for better illumination -->
+    <light type="point" name="point_light_1">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+
+    <!-- Outer Boundary Walls -->
+    <model name="back_wall">
+      <static>true</static>
+      <pose>0 6 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.2 0.4 0.8 1</ambient> <!-- Blue Wall -->
+            <diffuse>0.2 0.4 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="front_wall">
+      <static>true</static>
+      <pose>0 -6 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.8 0.2 0.2 1</ambient> <!-- Red Wall -->
+            <diffuse>0.8 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="left_wall">
+      <static>true</static>
+      <pose>-6 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.2 0.8 0.4 1</ambient> <!-- Green Wall -->
+            <diffuse>0.2 0.8 0.4 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="right_wall">
+      <static>true</static>
+      <pose>6 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>12 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.7 0.4 0.1 1</ambient> <!-- Orange Wall -->
+            <diffuse>0.7 0.4 0.1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Inner Maze Walls with expanded structure -->
+    <model name="inner_wall_1">
+      <static>true</static>
+      <pose>0 3 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>8 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient> <!-- Gray Inner Walls -->
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="inner_wall_2">
+      <static>true</static>
+      <pose>-4 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="inner_wall_3">
+      <static>true</static>
+      <pose>3 0 0 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="small_wall_1">
+	  <static>true</static>
+	  <pose>2 -3.5 0 0 0 1.5708</pose> <!-- Adjust the position as needed -->
+	  <link name="link">
+	    <collision name="collision">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose> <!-- Positioning the wall at the proper height -->
+	    </collision>
+	    <visual name="visual">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	      <material>
+		<ambient>0.6 0.6 0.6 1</ambient> <!-- Gray wall color -->
+		<diffuse>0.6 0.6 0.6 1</diffuse>
+	      </material>
+	    </visual>
+	  </link>
+	</model>
+	<model name="small_wall_5">
+	  <static>true</static>
+	  <pose>-2.5 0 0 0 0 0</pose> <!-- Adjust the position as needed -->
+	  <link name="link">
+	    <collision name="collision">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose> <!-- Positioning the wall at the proper height -->
+	    </collision>
+	    <visual name="visual">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	      <material>
+		<ambient>0.6 0.6 0.6 1</ambient> <!-- Gray wall color -->
+		<diffuse>0.6 0.6 0.6 1</diffuse>
+	      </material>
+	    </visual>
+	  </link>
+	</model>
+	<model name="small_wall_3">
+	  <static>true</static>
+	  <pose>-3.5 0 0 0 0 0</pose> <!-- Adjust the position as needed -->
+	  <link name="link">
+	    <collision name="collision">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose> <!-- Positioning the wall at the proper height -->
+	    </collision>
+	    <visual name="visual">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	      <material>
+		<ambient>0.6 0.6 0.6 1</ambient> <!-- Gray wall color -->
+		<diffuse>0.6 0.6 0.6 1</diffuse>
+	      </material>
+	    </visual>
+	  </link>
+	</model>
+	<model name="small_wall_4">
+	  <static>true</static>
+	  <pose>-2 -0.5 0 0 0 1.5708</pose> <!-- Adjust the position as needed -->
+	  <link name="link">
+	    <collision name="collision">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose> <!-- Positioning the wall at the proper height -->
+	    </collision>
+	    <visual name="visual">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	      <material>
+		<ambient>0.6 0.6 0.6 1</ambient> <!-- Gray wall color -->
+		<diffuse>0.6 0.6 0.6 1</diffuse>
+	      </material>
+	    </visual>
+	  </link>
+	</model>
+
+	<model name="small_wall_2">
+	  <static>true</static>
+	  <pose>2 5.5 0 0 0 1.5708</pose> <!-- Adjust the position as needed -->
+	  <link name="link">
+	    <collision name="collision">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size> <!-- 1 meter long, 0.1 meter thick, 2.5 meters high -->
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	    </collision>
+	    <visual name="visual">
+	      <geometry>
+		<box>
+		  <size>1 0.1 2.5</size>
+		</box>
+	      </geometry>
+	      <pose>0 0 1.25 0 0 0</pose>
+	      <material>
+		<ambient>0.6 0.6 0.6 1</ambient> <!-- Gray wall color -->
+		<diffuse>0.6 0.6 0.6 1</diffuse>
+	      </material>
+	    </visual>
+	  </link>
+	</model>
+
+
+
+    <model name="inner_wall_5">
+      <static>true</static>
+      <pose>4 -3 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>4 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 0 0</pose>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Central Goal -->
+    <model name="goal">
+      <pose>0 0 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.25 0 0 0</pose>
+          <material>
+            <ambient>0 1 0 1</ambient>  <!-- Green Goal -->
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
+

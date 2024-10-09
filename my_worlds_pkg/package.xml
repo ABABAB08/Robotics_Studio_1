@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_worlds_pkg</name>
+  <version>0.0.1</version>
+  <description>A custom package containing Gazebo worlds and launch files.</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

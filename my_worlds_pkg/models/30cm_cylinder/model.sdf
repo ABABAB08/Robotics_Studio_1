@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="30cm_cylinder">
+        <static>true</static> <!-- Set to true to make the cylinder static -->
+        <link name="cylinder_link">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.001</ixx>
+                    <iyy>0.001</iyy>
+                    <izz>0.001</izz>
+                </inertia>
+            </inertial>
+            <visual name="cylinder_visual">
+                <geometry>
+                    <cylinder>
+                        <radius>0.15</radius> <!-- Radius is 0.15 meters, making the diameter 0.3 meters -->
+                        <length>0.5</length>   <!-- Height is 0.5 meters -->
+                    </cylinder>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                    </script>
+                </material>
+            </visual>
+            <collision name="cylinder_collision">
+                <geometry>
+                    <cylinder>
+                        <radius>0.15</radius> <!-- Same radius as the visual -->
+                        <length>0.5</length>   <!-- Same height as the visual -->
+                    </cylinder>
+                </geometry>
+            </collision>
+        </link>
+    </model>
+</sdf>
+

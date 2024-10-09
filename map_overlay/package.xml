@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>map_overlay</name>
+  <version>0.0.1</version>
+  <description>Map overlay package to combine Gazebo ground truth and GMapping maps.</description>
+  <maintainer email="user@todo.todo">User</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>opencv</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
